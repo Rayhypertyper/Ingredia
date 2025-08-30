@@ -1,4 +1,15 @@
+---
+title: Food Ingredient Scanner
+emoji: 🥫
+colorFrom: green
+colorTo: red
+sdk: docker
+app_file: main.py
+pinned: false
+---
+
 # Food Ingredient Scanner
+
 
 A web-based AI application that scans food product images, identifies ingredients using external databases, and flags potentially harmful additives to promote healthier consumer choices.
 
