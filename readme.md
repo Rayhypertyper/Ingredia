@@ -3,8 +3,8 @@ title: Food Ingredient Scanner
 emoji: 🍔
 colorFrom: blue
 colorTo: green
-sdk: gradio
-sdk_version: "3.36.0"
+sdk: python
+sdk_version: "3.11"
 app_file: main.py
 pinned: false
 ---

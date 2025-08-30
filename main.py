@@ -420,7 +420,9 @@ async def home():
       const resultsDiv = document.getElementById('results');
       const captureFlash = document.getElementById('captureFlash');
       
-      const API_URL = "http://127.0.0.1:8000/analyze";
+      # const API_URL = "http://127.0.0.1:8000/analyze";
+      const API_URL = "/analyze";
+
 
       async function setupCamera() {
         try {
