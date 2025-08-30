@@ -1,12 +1,14 @@
 ---
 title: Food Ingredient Scanner
-emoji: 🥫
-colorFrom: green
-colorTo: red
-sdk: docker
-app_file: main.py
+emoji: 🍔
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "3.36.0"
+app_file: app.py
 pinned: false
 ---
+
 
 # Food Ingredient Scanner
 
