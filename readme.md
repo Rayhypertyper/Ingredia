@@ -120,7 +120,7 @@ To use the logo detection feature, you must authenticate with Google Cloud.
         ```bash
         set GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your\keyfile.json"
         ```
-    > **Important**: This variable must be set in the terminal session where you will run the application.
+     **Important**: This variable must be set in the terminal session where you will run the application.
 
 ### 3. Create a `requirements.txt` File
 
