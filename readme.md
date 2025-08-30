@@ -15,10 +15,7 @@ pinned: false
 
 A web-based AI application that scans food product images, identifies ingredients using external databases, and flags potentially harmful additives to promote healthier consumer choices.
 
-![App Screenshot](images/app-screenshot.png)
-*(**Note**: You should replace `app-screenshot.png` with an actual screenshot of your running application.)*
 
----
 
 ## 📋 Table of Contents
 
