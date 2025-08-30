@@ -1,18 +1,20 @@
 ---
-title: Food Ingredient Scanner
-emoji: 🍔
-colorFrom: blue
-colorTo: green
-sdk: python
-python_version: "3.11"
-suggested_hardware: "t4-medium"  # GPU for PaddleOCR inference
-suggested_storage: "small"     # enough for models + a few images
-app_file: main.py
-pinned: false
-short_description: "Scan food images to detect ingredients and flag harmful additives"
-tags: ["OCR", "FastAPI", "Food", "Ingredients", "Health"]
-preload_from_hub:
-  - paddleocr/models/ch_ppocr_server_v2.0  # Preload PaddleOCR model to speed up startup
+tags:
+- general
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+# My Awesome Project
+
+This is a new repository for my Hugging Face project.
+
+## Project Description
+
+This repository contains files for my project, which is currently under development. More details will be added here soon.
+
+## Usage
+
+Instructions on how to use this project will be provided once the project is ready for use.
+
+## License
+
+This project is licensed under the MIT License.
