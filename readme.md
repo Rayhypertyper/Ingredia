@@ -15,6 +15,7 @@ preload_from_hub:
   - paddleocr/models/ch_ppocr_server_v2.0  # Preload PaddleOCR model to speed up startup
 ---
 
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
 
 # Food Ingredient Scanner
