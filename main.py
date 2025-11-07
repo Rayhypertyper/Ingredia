@@ -10,6 +10,7 @@ import logoretriever
 from foodscraper import my_dict
 from fastapi.responses import HTMLResponse
 import numpy as np
+import uvicorn
 
 
 app = FastAPI()
@@ -420,7 +421,7 @@ async def home():
       const resultsDiv = document.getElementById('results');
       const captureFlash = document.getElementById('captureFlash');
       
-      # const API_URL = "http://127.0.0.1:8000/analyze";
+      // const API_URL = "http://127.0.0.1:8000/analyze";
       const API_URL = "/analyze";
 
 
@@ -624,3 +625,6 @@ async def analyze(file: UploadFile = File(...)):
         "ingredients": final_list,
         "flagged": flagged or ["No carcinogenic ingredients found"]
     }
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="127.0.0.1", port=8000)
