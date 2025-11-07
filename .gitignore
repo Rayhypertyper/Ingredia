@@ -1,3 +1,21 @@
+*.pyc
+__pycache__/
+.venv/
+venv/
+env/
+.env
+.vscode/
+/.idea/
+.DS_Store
+uploads/
+images/*
+!images/.keep
+secrets.json
+*.sqlite3
+pip-wheel-metadata/
+dist/
+build/
+__pypackages__/
 # Ignore virtual environment
 .venv/
 venv/
